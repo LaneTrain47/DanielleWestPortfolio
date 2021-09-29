@@ -22,13 +22,13 @@ body {
 
 @media only screen and (min-width: 992px) {
     .headerBackground {
-        background-image: url("/img/JillPrestonLarge.png");
+        background-image: url("/img/DanielleWestLarge.png");
         min-height: 400px;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 9910x) {
     .headerBackground {
-        background-image: url("/img/JillPrestonSmall.png")
+        background-image: url("/img/DaniellWestSmall.png")
     }
 }
