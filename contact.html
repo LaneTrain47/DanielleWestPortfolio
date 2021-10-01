@@ -23,7 +23,7 @@
 
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 mt-2">
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
@@ -46,10 +46,66 @@
         </div>
     </nav>
 
-    <main class="flex-shrink-0">
-        <div class="container">
+    <!-- Main Content Area -->
 
-        </div>
+    <main class="flex-shrink-0">
+
+        <!-- Hero Title -->
+        <header class="headerBackground container-fluid d-flex flex-column justify-contact-center mt-5">
+
+            <div class="row justify-content-center offset-0 offset-md-2 offset-lg-3 offset-xl-1 offset-xxl-0">
+
+                <div class="col-12 col-md-8 col-xl-6">
+
+                    <h1 class="display-3 titleFont mt-5">
+                        <span>Danielle</span>&nbsp;West
+                    </h1>
+                    <h3 class="text-uppercase">
+                        Let's Talk
+                    </h3>
+                    <p>
+                        I'd love to hear from you. Use the form below to drop me a line!
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Contact Form -->
+
+        <section id="contactForm" class="mt-2 mb-2">
+
+            <div class="container mt-5 mb-5 shadow-lg p-3">
+
+                <form>
+
+                    <div class="mb-3">
+                        <label for="fullName" class="mb-2">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Your name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Email" class="mb-2">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="phone" class="mb-2">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Your phone number" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="mb-2">Your Message</label>
+                        <textarea class="form-control" id="message" row="3" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                </form>
+
+            </div>
+
+        </section>
+
     </main>
 
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
