@@ -1,3 +1,20 @@
+:root {
+    --jp-primaryColor: rgb(245, 170, 193);
+    --jp-secondaryColor: reg(168, 99, 120);
+    --formFocusColor: var(--jp-secondaryColor);
+    --formfocusShadowColor: rgba(255, 100, 172, 0.5);
+
+    --dw-formfocusColor: var(--dw-Secondary-Color);
+    --dw-formfocusShadowColor: rgba(244, 119, 255, 0.5);
+    --dw-PrimaryColor: rgb(173, 153, 216);
+    --dw-SecondaryColor: rgb(104, 36, 115);
+
+    --dwhitman-formfocusColor: var(--dw-secondaryColor);
+    --dwhitman-formfocusShadow: rgba(42, 121, 248, 0.5);
+    --dwhitman-primaryColor: #91CBFB;
+    --dwhitman-secondaryColor: #4294ba;
+}
+
 .sticky-nav {
     position: fixed;
     left: 0;
@@ -11,6 +28,11 @@
 
 body {
     font-family: 'Yaldevi', sans-serif;
+}
+
+.form-control:focus {
+    border-color: var(--formFocusColor);
+    box-shadow: 0 0 0 .25rem var(--formfocusShadowColor);
 }
 
 .headerBackground {
